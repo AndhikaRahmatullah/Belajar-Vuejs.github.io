@@ -1,6 +1,10 @@
 <template>
 	<div class="text-center">
-		<img alt="Vue logo" src="../assets/logo.png" class="mx-auto" />
+		<img
+			alt="Vue logo"
+			src="../assets/doraemon.png"
+			class="mx-auto w-44"
+		/>
 	</div>
 	<div class="">
 		<!-- mengirim data nama dan umur dari parent(HomeView) ke child(HelloWord) -->

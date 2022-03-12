@@ -1,19 +1,6 @@
-# router-vue
+# Belajar Vue.js
 
-## Project setup
-```
-npm install
-```
+## Teknologi yang dipakai :
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1. Vue.js
+2. Tailwindcss
