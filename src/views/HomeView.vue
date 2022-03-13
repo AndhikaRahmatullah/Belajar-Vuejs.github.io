@@ -15,12 +15,14 @@
 			@changeSemester="changeSemester"
 			:semester="semester"
 		/>
+		<Conditional class="mt-2" />
 	</div>
 </template>
 
 <script>
 	// import file child
 	import HelloWorld from "@/components/HelloWorld.vue";
+	import Conditional from "@/components/Conditional.vue";
 
 	export default {
 		name: "HomeView",
@@ -33,6 +35,7 @@
 		components: {
 			// panggil nama component
 			HelloWorld,
+			Conditional,
 		},
 		methods: {
 			// setiap ada event pasti ada methods;
