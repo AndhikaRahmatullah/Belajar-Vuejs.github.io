@@ -4,10 +4,10 @@
 		<input
 			type="text"
 			v-model="newTask"
-			class="border-2 outline-none focus:border-purple-600 px-2"
+			class="border-2 outline-none focus:border-purple-600 px-2 focus:scale-110 hover:border-purple-300 transition-all"
 		/>
 		<button
-			class="bg-gray-600 text-white p-1 mx-3 rounded-lg"
+			class="bg-gray-600 text-white p-1 mx-3 rounded-lg hover:bg-red-600 hover:scale-95 transition-all"
 			@click.prevent="addTask()"
 		>
 			Tambah
