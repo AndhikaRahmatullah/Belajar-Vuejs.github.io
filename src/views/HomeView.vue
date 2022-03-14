@@ -16,6 +16,7 @@
 			:semester="semester"
 		/>
 		<Conditional class="mt-2" />
+		<Footer />
 	</div>
 </template>
 
@@ -23,6 +24,7 @@
 	// import file child
 	import HelloWorld from "@/components/HelloWorld.vue";
 	import Conditional from "@/components/Conditional.vue";
+	import Footer from "@/components/Footer.vue";
 
 	export default {
 		name: "HomeView",
@@ -36,6 +38,7 @@
 			// panggil nama component
 			HelloWorld,
 			Conditional,
+			Footer,
 		},
 		methods: {
 			// setiap ada event pasti ada methods;

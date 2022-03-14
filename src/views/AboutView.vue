@@ -1,5 +1,22 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+	<div class="about">
+		<List />
+		<Footer />
+	</div>
 </template>
+
+<script>
+	import Footer from "../components/Footer.vue";
+	import List from "../components/List.vue";
+
+	export default {
+		name: `AboutViwe`,
+		data() {
+			return {};
+		},
+		components: {
+			Footer,
+			List,
+		},
+	};
+</script>
