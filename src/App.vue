@@ -16,6 +16,12 @@
 			active-class="text-white"
 			>Animation</router-link
 		>
+		<router-link
+			to="/form"
+			class="mx-2 focus:text-white"
+			active-class="text-white"
+			>Formulir</router-link
+		>
 	</nav>
 	<router-view />
 </template>
