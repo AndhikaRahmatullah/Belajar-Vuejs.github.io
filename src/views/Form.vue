@@ -2,7 +2,7 @@
 	<div class=""></div>
 	<div class="">
 		<div class="">
-			<dataInput labelName="Masukan Disini :" />
+			<dataInput labelName="Masukan Nama :" />
 		</div>
 	</div>
 </template>

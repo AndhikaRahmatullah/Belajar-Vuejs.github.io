@@ -3,12 +3,7 @@
 		<div class="grid grid-cols-2">
 			<List />
 			<div class="">
-				<input
-					type="text"
-					class="border border-cyan-500"
-					v-model="masuk"
-					placeholder="masukan disini"
-				/>
+				<input type="text" class="border border-cyan-500" v-model="masuk" placeholder="masukan disini" />
 				{{ masuk }}
 			</div>
 			<div class="mx-10 mt-5">
@@ -20,21 +15,11 @@
 			<div class="grid grid-cols-2 mx-10 mt-5">
 				<div class="">
 					<p>Id Ganjil :</p>
-					<p
-						v-for="mahasiswa in mahasiswaganjil"
-						:key="mahasiswa"
-					>
-						Id : {{ mahasiswa.id }} - {{ mahasiswa.nama }}
-					</p>
+					<p v-for="mahasiswa in mahasiswaganjil" :key="mahasiswa">Id : {{ mahasiswa.id }} - {{ mahasiswa.nama }}</p>
 				</div>
 				<div class="">
 					<p>Id Genap :</p>
-					<p
-						v-for="mahasiswa in mahasiswagenap"
-						:key="mahasiswa"
-					>
-						Id : {{ mahasiswa.id }} - {{ mahasiswa.nama }}
-					</p>
+					<p v-for="mahasiswa in mahasiswagenap" :key="mahasiswa">Id : {{ mahasiswa.id }} - {{ mahasiswa.nama }}</p>
 				</div>
 			</div>
 		</div>
@@ -61,14 +46,10 @@
 		},
 		computed: {
 			mahasiswagenap() {
-				return this.mahasiswa.filter(
-					(mahasiswa) => mahasiswa.id % 2 === 0
-				);
+				return this.mahasiswa.filter((mahasiswa) => mahasiswa.id % 2 === 0);
 			},
 			mahasiswaganjil() {
-				return this.mahasiswa.filter(
-					(mahasiswa) => mahasiswa.id % 2 === 1
-				);
+				return this.mahasiswa.filter((mahasiswa) => mahasiswa.id % 2 === 1);
 			},
 		},
 		components: {

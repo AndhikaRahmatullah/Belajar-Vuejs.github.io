@@ -1,20 +1,11 @@
 <template>
 	<div class="text-center">
-		<img
-			alt="Vue logo"
-			src="../assets/doraemon.png"
-			class="mx-auto w-44"
-		/>
+		<img alt="Vue logo" src="../assets/doraemon.png" class="mx-auto w-44" />
 	</div>
 	<div class="">
 		<!-- mengirim data nama dan umur dari parent(HomeView) ke child(HelloWord) -->
 		<!-- bind data semester -->
-		<HelloWorld
-			nama="Andhika"
-			umur="20"
-			@changeSemester="changeSemester"
-			:semester="semester"
-		/>
+		<HelloWorld nama="Andhika" umur="20" @changeSemester="changeSemester" :semester="semester" />
 		<Conditional class="mt-2" />
 		<Footer />
 	</div>
