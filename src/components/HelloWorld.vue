@@ -10,12 +10,7 @@
 			Semester <span>{{ semester }}</span>
 		</p>
 		<!-- Mengirim data dari child(HelloWord) ke parent(HomeView) -->
-		<button
-			@click="changeSemester"
-			class="bg-cyan-500 p-2 rounded-lg mt-3"
-		>
-			Ubah Semester
-		</button>
+		<button @click="changeSemester" class="bg-cyan-500 p-2 rounded-lg mt-3">Ubah Semester</button>
 	</div>
 </template>
 

@@ -6,6 +6,7 @@
 		<router-link to="/animation" class="mx-2 focus:text-white" active-class="text-white">Animation</router-link>
 		<router-link to="/form" class="mx-2 focus:text-white" active-class="text-white">Formulir</router-link>
 		<router-link to="/customMethode" class="mx-2 focus:text-white" active-class="text-white">CustomMethode</router-link>
+		<router-link to="/pembayaran" class="mx-2 focus:text-white" active-class="text-white">Pembayaran</router-link>
 	</nav>
 	<router-view />
 </template>
